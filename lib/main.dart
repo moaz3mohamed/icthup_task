@@ -4,11 +4,13 @@ import 'package:flutter_application_2/bottom.dart';
 import 'package:flutter_application_2/produt_api_screen/ui/proudct_api_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
+// ignore: must_be_immutable
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+  bool ispush = false;
 
   // This widget is the root of your application.
   @override
